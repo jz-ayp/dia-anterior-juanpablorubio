@@ -1,5 +1,10 @@
 """
-Codifica tu solución en este archivo.
+Tarea:    día anterior
+Autor:    Juan Oablo Rubio
+Fecha:    07/abr/21
+Grupo:    ESI-232
+Profesor: Jorge A. Zaldívar Carrillo
+Descripción: Calcula el dia anterior de una fecha dada.
 """
 dia = int(input("Intodusca el numero del día: "))
 mes = int(input("Intodusca el numero del mes: "))
@@ -30,6 +35,9 @@ if dia == 1:
         mes -= 1
 else:
     dia = dia-1
+if mes <= 0:
+    mes = 12
+    año = año -1
 
 print(dia)
 print(mes)
