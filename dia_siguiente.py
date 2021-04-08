@@ -1,7 +1,7 @@
 """
 Tarea:    Siguiente día
-Autor:    
-Fecha:    25/mar/20
+Autor:    Juan Oablo Rubio
+Fecha:    07/abr/21
 Grupo:    ESI-232
 Profesor: Jorge A. Zaldívar Carrillo
 Descripción:

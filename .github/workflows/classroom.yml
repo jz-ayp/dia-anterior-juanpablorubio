@@ -3,8 +3,9 @@
     on:
       push:
         paths:
-          - 'segundo_siguiente.py'
+          - 'dia_anterior.py'
           - '.github/classroom/autograding.json'
+          - '.github/workflows/classroom.yml'
 
     jobs:
       build:
